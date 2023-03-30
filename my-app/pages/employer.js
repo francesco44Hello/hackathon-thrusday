@@ -60,8 +60,9 @@ const employerPage = () => {
           </div>
           <button className="submit">Submit</button>
         </form>
-        <Link href='/' style={{textDecoration: 'none', border: '1px solid black', padding: '5px', color: 'black'}}>Home</Link>
+
       </div>
+      <Link href='/' style={{textDecoration: 'none', border: '1px solid black', padding: '5px', color: 'black'}}>Home</Link>
       
     </>
   );

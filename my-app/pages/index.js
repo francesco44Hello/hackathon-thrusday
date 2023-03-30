@@ -18,11 +18,14 @@ export default function Home() {
           className="logo"
           src="https://i.ibb.co/17JXpbw/matchmakr-high-resolution-logo-color-on-transparent-background.png"
         ></img>
+        <h2 style={{width: '50%', display: 'flex', justifyContent: 'center', alignItems:'center', textAlign: 'center'}}>
+          Find the perfect match, weather you're looking for roles or employees, we got you covered!
+        </h2>
         <div className="button-div">
           <Link href="/employee" className="employee-button" style={{textDecoration: 'none'}}>
-            Employee
+          I'm an Employee
           </Link>
-          <Link href="/employer" style={{textDecoration: 'none'}}>Employer</Link>
+          <Link href="/employer" className="employee-button" style={{textDecoration: 'none'}}>I'm an Employer</Link>
         </div>
       </div>
     </>

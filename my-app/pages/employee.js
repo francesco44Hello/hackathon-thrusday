@@ -67,7 +67,9 @@ const employeePage = () => {
           <button className="submit">Submit</button>
         </form>
         
-        <Link
+      
+      </div>
+      <Link
           href="/"
           style={{
             textDecoration: "none",
@@ -78,7 +80,6 @@ const employeePage = () => {
         >
           Home
         </Link>
-      </div>
     </>
   );
 };
