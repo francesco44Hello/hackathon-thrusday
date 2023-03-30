@@ -1,8 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import Link from 'next/link'
+import Head from "next/head";
+import Image from "next/image";
+import { Inter } from "next/font/google";
+import styles from "@/styles/Home.module.css";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,9 +13,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-     <img src='https://i.ibb.co/17JXpbw/matchmakr-high-resolution-logo-color-on-transparent-background.png'></img>
-     <Link href='/employee' className='employee-button'>Employee</Link> 
-     <Link href='/employer'>Employer</Link> 
+      <div className="main-div-index">
+        <img
+          className="logo"
+          src="https://i.ibb.co/17JXpbw/matchmakr-high-resolution-logo-color-on-transparent-background.png"
+        ></img>
+        <div className="button-div">
+          <Link href="/employee" className="employee-button" style={{textDecoration: 'none'}}>
+            Employee
+          </Link>
+          <Link href="/employer" style={{textDecoration: 'none'}}>Employer</Link>
+        </div>
+      </div>
     </>
-  )
+  );
 }
